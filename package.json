@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "scripts": {
+    "start": "npm run clean && eleventy --serve",
+    "build": "npm run clean && eleventy",
+    "clean": "rm -rf ./public"
+  }
+}
