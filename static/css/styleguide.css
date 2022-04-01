@@ -193,14 +193,6 @@
   font-weight: 400;
 }
 
-.tahoma-regular-normal-black-22px {
-  color: var(--black);
-  font-family: var(--font-family-tahoma-regular);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .baselneue-regular-normal-picton-blue-22px {
   color: var(--picton-blue);
   font-family: var(--font-family-baselneue-regular);
@@ -245,6 +237,14 @@
   color: var(--mercury);
   font-family: var(--font-family-helveticaneue-regular);
   font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tahoma-regular-normal-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
 }
@@ -377,20 +377,6 @@
   font-size: var(--font-size-xl);
 }
 
-.tahoma-normal-black-22px {
-  color: var(--black);
-  font-family: var(--font-family-tahoma);
-  font-size: 22px;
-}
-
-.tahoma-regular-normal-picton-blue-22px {
-  color: var(--picton-blue);
-  font-family: var(--font-family-tahoma-regular);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .baselneue-medium-picton-blue-45px {
   color: var(--picton-blue);
   font-family: var(--font-family-baselneue-medium);
@@ -479,6 +465,20 @@
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 500;
+}
+
+.tahoma-normal-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-tahoma);
+  font-size: 22px;
+}
+
+.tahoma-regular-normal-picton-blue-22px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .baselneue-bold-mercury-36px {
