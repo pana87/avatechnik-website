@@ -1,10 +1,13 @@
 {
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "@getyour/getyour-modal": "github:pnts87/getyour-modal",
+    "@getyour/getyour-picture-slider": "github:pnts87/getyour-picture-slider"
   },
   "scripts": {
     "start": "npm run clean && eleventy --serve",
     "build": "npm run clean && eleventy",
-    "clean": "rm -rf ./public"
+    "clean": "rm -rf ./public",
+    "deps": "npm i @11ty/eleventy github:pnts87/getyour-modal github:pnts87/getyour-picture-slider"
   }
 }

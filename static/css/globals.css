@@ -11,16 +11,16 @@
   src: url("../fonts/Tahoma Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "HelveticaNeue-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/helveticaneue.ttf") format("truetype");
-}
-@font-face {
   font-family: "HelveticaNeue-Bold";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/HelveticaNeue-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/helveticaneue.ttf") format("truetype");
 }
 :root {
   --mdc-theme-background: #fff;

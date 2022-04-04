@@ -49,11 +49,26 @@
 
 .faq .gruppe-169-EQm6qQ {
   background-color: transparent;
+  display: block;
   height: 2328px;
+  opacity: 0;
   position: absolute;
   right: calc(15.77% - 155px);
   top: 362px;
   width: 985px;
+}
+
+.faq .gruppe-169-EQm6qQ.bp4-animate-enter {
+  animation: bp4-animate-enter-frames 0.40s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp4-animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
 }
 
 .faq .gruppe-138-KmaB0V {
@@ -538,10 +553,29 @@
 .faq .gruppe-170-EQm6qQ {
   background-color: transparent;
   bottom: 195px;
+  display: block;
   height: 279px;
+  opacity: 0;
   position: absolute;
   right: calc(49.93% - 610px);
+  transform: translate(0, 25px);
   width: 1221px;
+}
+
+.faq .gruppe-170-EQm6qQ.bp4-animate-enter1 {
+  animation: bp4-animate-enter1-frames 0.50s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp4-animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .faq .gruppe-168-at10aH {
@@ -569,6 +603,7 @@
 .faq .telefon-erxj5e {
   background-color: transparent;
   bottom: 0px;
+  cursor: pointer;
   height: 32px;
   left: 0px;
   position: absolute;
@@ -671,194 +706,6 @@
   width: 75px;
 }
 
-.faq .gruppe-157-EQm6qQ {
-  background-color: transparent;
-  height: 54px;
-  left: -10px;
-  position: absolute;
-  top: 0px;
-  width: calc(100.00% + 50px);
-}
-
-.faq .gruppe-42-wklbNx {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .gruppe-41-CmDsL5 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 100%;
-}
-
-.faq .gruppe-5-zMXvSZ {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .x367502-paxlkg-681-7Q1ux7 {
-  background-color: transparent;
-  border-radius: 10px;
-  height: calc(100.00% + 18px);
-  left: -9px;
-  object-fit: cover;
-  position: absolute;
-  top: -6px;
-  width: calc(100.00% + 18px);
-}
-
-.faq .gruppe-2-CmDsL5 {
-  background-color: transparent;
-  height: 100%;
-  left: 10px;
-  position: absolute;
-  top: 0px;
-  width: calc(100.00% - 50px);
-}
-
-.faq .rechteck-1-UESkJ8 {
-  background-color: var(--new-car);
-  box-shadow: 0px 3px 6px #00000029;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .x07153-342939-UESkJ8 {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  left: 192px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 104px;
-}
-
-.faq .montag-freitag-UESkJ8 {
-  background-color: transparent;
-  bottom: calc(43.94% - 9px);
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: calc(24.68% - 32px);
-  text-align: left;
-  white-space: nowrap;
-  width: 129px;
-}
-
-.faq .samstag-UESkJ8 {
-  background-color: transparent;
-  bottom: calc(43.94% - 9px);
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 219px;
-  text-align: left;
-  white-space: nowrap;
-  width: 74px;
-}
-
-.faq .x800-uhr-UESkJ8 {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: calc(17.96% - 20px);
-  text-align: left;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.faq .x900-uhr-UESkJ8 {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 102px;
-  text-align: left;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.faq .time-UESkJ8 {
-  background-color: transparent;
-  height: 19px;
-  position: absolute;
-  right: calc(30.49% - 6px);
-  top: calc(49.59% - 10px);
-  width: 19px;
-}
-
-.faq .gruppe-1-2VzGAs {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .pfad-3-7J0qLR {
-  background-color: transparent;
-  height: 100%;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .iconfinder_ic_local_phone_48px_352510-wklbNx {
-  background-color: transparent;
-  bottom: calc(43.44% - 10px);
-  height: 24px;
-  left: 172px;
-  position: absolute;
-  width: 24px;
-}
-
-.faq .pfad-1-AKOAPh {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq .pfad-2-AKOAPh {
-  background-color: transparent;
-  height: calc(100.00% - 6px);
-  left: 3px;
-  object-fit: cover;
-  position: absolute;
-  top: 3px;
-  width: calc(100.00% - 6px);
-}
-
 .faq .gruppe-93-EQm6qQ {
   background-color: transparent;
   bottom: 0px;
@@ -953,6 +800,204 @@
   top: 71px;
   width: 183px;
 }
+
+.faq .gruppe-157-EQm6qQ {
+  background-color: transparent;
+  height: 54px;
+  left: -10px;
+  position: fixed;
+  top: 0px;
+  width: calc(100.00% + 50px);
+}
+
+.faq .gruppe-42-wklbNx {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .gruppe-41-CmDsL5 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+
+.faq .gruppe-5-zMXvSZ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .x367502-paxlkg-681-7Q1ux7 {
+  background-color: transparent;
+  border-radius: 10px;
+  height: calc(100.00% + 18px);
+  left: -9px;
+  object-fit: cover;
+  position: absolute;
+  top: -6px;
+  width: calc(100.00% + 18px);
+}
+
+.faq .gruppe-2-CmDsL5 {
+  background-color: transparent;
+  height: 100%;
+  left: 10px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 50px);
+}
+
+.faq .rechteck-1-UESkJ8 {
+  background-color: var(--new-car);
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .montag-freitag-UESkJ8 {
+  background-color: transparent;
+  bottom: calc(43.94% - 9px);
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(24.68% - 32px);
+  text-align: left;
+  white-space: nowrap;
+  width: 129px;
+}
+
+.faq .samstag-UESkJ8 {
+  background-color: transparent;
+  bottom: calc(43.94% - 9px);
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 219px;
+  text-align: left;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.faq .x800-uhr-UESkJ8 {
+  background-color: transparent;
+  bottom: calc(41.18% - 8px);
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(17.96% - 20px);
+  text-align: left;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.faq .x900-uhr-UESkJ8 {
+  background-color: transparent;
+  bottom: calc(41.18% - 8px);
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 102px;
+  text-align: left;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.faq .time-UESkJ8 {
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  right: calc(30.49% - 6px);
+  top: calc(49.59% - 10px);
+  width: 19px;
+}
+
+.faq .gruppe-1-2VzGAs {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .pfad-3-7J0qLR {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .gruppe-174-wklbNx {
+  background-color: transparent;
+  bottom: calc(43.44% - 10px);
+  height: 24px;
+  left: 172px;
+  position: absolute;
+  width: 164px;
+}
+
+.faq .x49-152-29545989-rasP5X {
+  background-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.faq .iconfinder_ic_local_phone_48px_352510-rasP5X {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.faq .pfad-1-lXa5PJ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq .pfad-2-lXa5PJ {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: calc(100.00% - 6px);
+}
 /* screen - faq-1 */
 
 .faq-1 {
@@ -1014,11 +1059,26 @@
 
 .faq-1 .gruppe-169-eZNR0b {
   background-color: transparent;
+  display: block;
   height: 2328px;
   left: calc(50.00% - 492px);
+  opacity: 0;
   position: absolute;
   top: 386px;
   width: 985px;
+}
+
+.faq-1 .gruppe-169-eZNR0b.bp3-animate-enter {
+  animation: bp3-animate-enter-frames 0.40s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp3-animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
 }
 
 .faq-1 .gruppe-138-Vlkbxj {
@@ -1531,10 +1591,29 @@
 .faq-1 .gruppe-170-eZNR0b {
   background-color: transparent;
   bottom: 156px;
+  display: block;
   height: 279px;
   left: calc(50.00% - 501px);
+  opacity: 0;
   position: absolute;
+  transform: translate(0, 25px);
   width: 1002px;
+}
+
+.faq-1 .gruppe-170-eZNR0b.bp3-animate-enter1 {
+  animation: bp3-animate-enter1-frames 0.50s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp3-animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .faq-1 .gruppe-168-8bjw8R {
@@ -1567,6 +1646,7 @@
 .faq-1 .telefon-Lq011S {
   background-color: transparent;
   bottom: 0px;
+  cursor: pointer;
   height: 27px;
   left: 0px;
   position: absolute;
@@ -1636,201 +1716,6 @@
   position: absolute;
   top: 35px;
   width: calc(100.00% - 70px);
-}
-
-.faq-1 .gruppe-42-eZNR0b {
-  background-color: transparent;
-  height: 29px;
-  left: 0px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .gruppe-2-RtEFlq {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .rechteck-1-LAmLYF {
-  background-color: var(--new-car);
-  box-shadow: 0px 3px 6px #00000029;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .gruppe-108-LAmLYF {
-  background-color: transparent;
-  height: 24px;
-  left: 162px;
-  position: absolute;
-  top: 3px;
-  width: 11.17%;
-}
-
-.faq-1 .gruppe-116-n7pCB3 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .iconfinder_ic_local_phone_48px_352510-eZo90g {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 24px;
-}
-
-.faq-1 .pfad-1-ThFLvU {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .pfad-2-ThFLvU {
-  background-color: transparent;
-  height: calc(100.00% - 6px);
-  left: 3px;
-  object-fit: cover;
-  position: absolute;
-  top: 3px;
-  width: calc(100.00% - 6px);
-}
-
-.faq-1 .x07153-342939-eZo90g {
-  background-color: transparent;
-  height: calc(100.00% - 4px);
-  left: 32px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 4px;
-  white-space: nowrap;
-  width: 104px;
-}
-
-.faq-1 .gruppe-111-LAmLYF {
-  background-color: transparent;
-  height: 19px;
-  position: absolute;
-  right: 56px;
-  top: calc(50.00% - 10px);
-  width: 487px;
-}
-
-.faq-1 .gruppe-110-iET6xs {
-  background-color: transparent;
-  bottom: 1.16%;
-  height: 19px;
-  left: 5.72%;
-  position: absolute;
-  width: 48.55%;
-}
-
-.faq-1 .montag-freitag-b1Y7kz {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 7.89%;
-  white-space: nowrap;
-  width: 54.52%;
-}
-
-.faq-1 .x800-uhr-b1Y7kz {
-  background-color: transparent;
-  height: 20px;
-  left: 54.35%;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 10.53%;
-  white-space: nowrap;
-  width: 46.49%;
-}
-
-.faq-1 .gruppe-109-iET6xs {
-  background-color: transparent;
-  bottom: 1.16%;
-  height: 19px;
-  position: absolute;
-  right: 0px;
-  width: 38.16%;
-}
-
-.faq-1 .samstag-DZ1eKI {
-  background-color: transparent;
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 112px;
-  text-align: left;
-  top: 7.89%;
-  white-space: nowrap;
-  width: 74px;
-}
-
-.faq-1 .x900-uhr-DZ1eKI {
-  background-color: transparent;
-  height: calc(100.00% + 1px);
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: -2px;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.faq-1 .time-iET6xs {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 19px;
-}
-
-.faq-1 .gruppe-1-M9Kzjx {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-1 .pfad-3-P0NyxE {
-  background-color: transparent;
-  height: 100%;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
 }
 
 .faq-1 .gruppe-93-eZNR0b {
@@ -1949,6 +1834,202 @@
   top: 59px;
   width: 183px;
 }
+
+.faq-1 .gruppe-42-eZNR0b {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .gruppe-2-RtEFlq {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .rechteck-1-LAmLYF {
+  background-color: var(--new-car);
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .gruppe-108-LAmLYF {
+  background-color: transparent;
+  height: 24px;
+  left: 162px;
+  position: absolute;
+  top: 3px;
+  width: 13.84%;
+}
+
+.faq-1 .gruppe-116-n7pCB3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .iconfinder_ic_local_phone_48px_352510-eZo90g {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.faq-1 .pfad-1-ThFLvU {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .pfad-2-ThFLvU {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: calc(100.00% - 6px);
+}
+
+.faq-1 .x49-152-29545989-eZo90g {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 32px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.faq-1 .gruppe-111-LAmLYF {
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  right: 56px;
+  top: calc(50.00% - 10px);
+  width: 487px;
+}
+
+.faq-1 .gruppe-110-iET6xs {
+  background-color: transparent;
+  bottom: 1.16%;
+  height: 19px;
+  left: 5.72%;
+  position: absolute;
+  width: 48.55%;
+}
+
+.faq-1 .montag-freitag-b1Y7kz {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 7.89%;
+  white-space: nowrap;
+  width: 54.52%;
+}
+
+.faq-1 .x800-uhr-b1Y7kz {
+  background-color: transparent;
+  height: 20px;
+  left: 54.35%;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.53%;
+  white-space: nowrap;
+  width: 46.49%;
+}
+
+.faq-1 .gruppe-109-iET6xs {
+  background-color: transparent;
+  bottom: 1.16%;
+  height: 19px;
+  position: absolute;
+  right: 0px;
+  width: 38.16%;
+}
+
+.faq-1 .samstag-DZ1eKI {
+  background-color: transparent;
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 112px;
+  text-align: left;
+  top: 7.89%;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.faq-1 .x900-uhr-DZ1eKI {
+  background-color: transparent;
+  height: calc(100.00% + 1px);
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.faq-1 .time-iET6xs {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 19px;
+}
+
+.faq-1 .gruppe-1-M9Kzjx {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-1 .pfad-3-P0NyxE {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
 /* screen - faq-2 */
 
 .faq-2 {
@@ -2015,11 +2096,26 @@
 
 .faq-2 .gruppe-169-7T7xru {
   background-color: transparent;
+  display: block;
   height: 72.13%;
   left: 21px;
+  opacity: 0;
   position: absolute;
   top: 13.57%;
   width: calc(100.00% - 43px);
+}
+
+.faq-2 .gruppe-169-7T7xru.bp2-animate-enter {
+  animation: bp2-animate-enter-frames 0.40s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
 }
 
 .faq-2 .gruppe-138-WF9Qx5 {
@@ -2504,10 +2600,29 @@
 .faq-2 .gruppe-171-7T7xru {
   background-color: transparent;
   bottom: 122px;
+  display: block;
   height: 208px;
   left: calc(41.95% - 223px);
+  opacity: 0;
   position: absolute;
+  transform: translate(0, 25px);
   width: 531px;
+}
+
+.faq-2 .gruppe-171-7T7xru.bp2-animate-enter1 {
+  animation: bp2-animate-enter1-frames 0.50s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp2-animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .faq-2 .gruppe-170-oA2h0i {
@@ -2544,6 +2659,7 @@
 .faq-2 .telefon-vWmAQr {
   background-color: transparent;
   bottom: 0px;
+  cursor: pointer;
   height: 23px;
   left: 48px;
   position: absolute;
@@ -2611,201 +2727,6 @@
   position: absolute;
   top: 15px;
   width: calc(100.00% - 30px);
-}
-
-.faq-2 .gruppe-42-7T7xru {
-  background-color: transparent;
-  height: 29px;
-  left: 0px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .gruppe-2-1dCr51 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .rechteck-1-NxuKk5 {
-  background-color: var(--new-car);
-  box-shadow: 0px 3px 6px #00000029;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .gruppe-108-NxuKk5 {
-  background-color: transparent;
-  height: 24px;
-  left: 34px;
-  position: absolute;
-  top: 3px;
-  width: 17.06%;
-}
-
-.faq-2 .gruppe-117-SqtxLX {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .iconfinder_ic_local_phone_48px_352510-tsdC3l {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 24px;
-}
-
-.faq-2 .pfad-1-iXHsbN {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .pfad-2-iXHsbN {
-  background-color: transparent;
-  height: calc(100.00% - 6px);
-  left: 3px;
-  object-fit: cover;
-  position: absolute;
-  top: 3px;
-  width: calc(100.00% - 6px);
-}
-
-.faq-2 .x07153-342939-tsdC3l {
-  background-color: transparent;
-  height: calc(100.00% - 4px);
-  left: 29px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 4px;
-  white-space: nowrap;
-  width: 104px;
-}
-
-.faq-2 .gruppe-111-NxuKk5 {
-  background-color: transparent;
-  height: 19px;
-  position: absolute;
-  right: 21px;
-  top: calc(50.00% - 10px);
-  width: 472px;
-}
-
-.faq-2 .gruppe-110-MeYjPX {
-  background-color: transparent;
-  bottom: 1.16%;
-  height: 19px;
-  left: 5.48%;
-  position: absolute;
-  width: 50.09%;
-}
-
-.faq-2 .montag-freitag-DL9lCK {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 7.89%;
-  white-space: nowrap;
-  width: 54.52%;
-}
-
-.faq-2 .x800-uhr-DL9lCK {
-  background-color: transparent;
-  height: 20px;
-  left: 54.35%;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 10.53%;
-  white-space: nowrap;
-  width: 46.49%;
-}
-
-.faq-2 .gruppe-109-MeYjPX {
-  background-color: transparent;
-  bottom: 1.16%;
-  height: 19px;
-  position: absolute;
-  right: 0px;
-  width: 39.38%;
-}
-
-.faq-2 .samstag-aTZFkX {
-  background-color: transparent;
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 112px;
-  text-align: left;
-  top: 7.89%;
-  white-space: nowrap;
-  width: 74px;
-}
-
-.faq-2 .x900-uhr-aTZFkX {
-  background-color: transparent;
-  height: calc(100.00% + 1px);
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: -2px;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.faq-2 .time-MeYjPX {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 19px;
-}
-
-.faq-2 .gruppe-1-7kE0nL {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-2 .pfad-3-QfMtbY {
-  background-color: transparent;
-  height: 100%;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
 }
 
 .faq-2 .gruppe-93-7T7xru {
@@ -2924,6 +2845,202 @@
   top: 56px;
   width: 137px;
 }
+
+.faq-2 .gruppe-42-7T7xru {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .gruppe-2-1dCr51 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .rechteck-1-NxuKk5 {
+  background-color: var(--new-car);
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .gruppe-108-NxuKk5 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 24px;
+  left: 34px;
+  position: absolute;
+  top: 3px;
+  width: 21.23%;
+}
+
+.faq-2 .gruppe-117-SqtxLX {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .iconfinder_ic_local_phone_48px_352510-tsdC3l {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.faq-2 .pfad-1-iXHsbN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .pfad-2-iXHsbN {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: calc(100.00% - 6px);
+}
+
+.faq-2 .x49-152-29545989-tsdC3l {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 29px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.faq-2 .gruppe-111-NxuKk5 {
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  right: 21px;
+  top: calc(50.00% - 10px);
+  width: 472px;
+}
+
+.faq-2 .gruppe-110-MeYjPX {
+  background-color: transparent;
+  bottom: 1.16%;
+  height: 19px;
+  left: 5.48%;
+  position: absolute;
+  width: 50.09%;
+}
+
+.faq-2 .montag-freitag-DL9lCK {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 7.89%;
+  white-space: nowrap;
+  width: 54.52%;
+}
+
+.faq-2 .x800-uhr-DL9lCK {
+  background-color: transparent;
+  height: 20px;
+  left: 54.35%;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.53%;
+  white-space: nowrap;
+  width: 46.49%;
+}
+
+.faq-2 .gruppe-109-MeYjPX {
+  background-color: transparent;
+  bottom: 1.16%;
+  height: 19px;
+  position: absolute;
+  right: 0px;
+  width: 39.38%;
+}
+
+.faq-2 .samstag-aTZFkX {
+  background-color: transparent;
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 112px;
+  text-align: left;
+  top: 7.89%;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.faq-2 .x900-uhr-aTZFkX {
+  background-color: transparent;
+  height: calc(100.00% + 1px);
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.faq-2 .time-MeYjPX {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 19px;
+}
+
+.faq-2 .gruppe-1-7kE0nL {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-2 .pfad-3-QfMtbY {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
 /* screen - faq-3 */
 
 .faq-3 {
@@ -2988,11 +3105,26 @@
 
 .faq-3 .gruppe-138-AKxmyD {
   background-color: transparent;
+  display: block;
   height: calc(100.00% - 587px);
   left: 17px;
+  opacity: 0;
   position: absolute;
   top: 275px;
   width: calc(100.00% - 34px);
+}
+
+.faq-3 .gruppe-138-AKxmyD.bp1-animate-enter {
+  animation: bp1-animate-enter-frames 0.40s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp1-animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
 }
 
 .faq-3 .wie-kann-ich-mit-ihnen-in-kontakt-treten-Icea3g {
@@ -3453,10 +3585,29 @@
 .faq-3 .gruppe-171-AKxmyD {
   background-color: transparent;
   bottom: 73px;
+  display: block;
   height: 169px;
   left: calc(49.99% - 174px);
+  opacity: 0;
   position: absolute;
+  transform: translate(0, 25px);
   width: 349px;
+}
+
+.faq-3 .gruppe-171-AKxmyD.bp1-animate-enter1 {
+  animation: bp1-animate-enter1-frames 0.50s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp1-animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .faq-3 .gruppe-170-t3DSB9 {
@@ -3492,6 +3643,7 @@
 .faq-3 .telefon-zuxwnu {
   background-color: transparent;
   bottom: 0px;
+  cursor: pointer;
   height: 19px;
   left: 0px;
   position: absolute;
@@ -3561,201 +3713,6 @@
   position: absolute;
   top: 10px;
   width: calc(100.00% - 21px);
-}
-
-.faq-3 .gruppe-42-AKxmyD {
-  background-color: transparent;
-  height: 18px;
-  left: 0px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-3 .gruppe-2-bxfyw5 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-3 .rechteck-1-lliQGl {
-  background-color: var(--new-car);
-  box-shadow: 0px 3px 6px #00000029;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-3 .gruppe-108-lliQGl {
-  background-color: transparent;
-  height: 10px;
-  left: 26px;
-  position: absolute;
-  top: 3px;
-  width: 17.05%;
-}
-
-.faq-3 .iconfinder_ic_local_phone_48px_352510-szZjJJ {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 10px;
-}
-
-.faq-3 .pfad-1-xtVi8h {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-3 .pfad-2-xtVi8h {
-  background-color: transparent;
-  height: calc(100.00% - 3px);
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 1px;
-  width: calc(100.00% - 3px);
-}
-
-.faq-3 .x07153-342939-szZjJJ {
-  background-color: transparent;
-  height: calc(100.00% + 2px);
-  letter-spacing: 0.00px;
-  line-height: 8px;
-  position: absolute;
-  right: -2px;
-  text-align: left;
-  top: 1px;
-  white-space: nowrap;
-  width: 53px;
-}
-
-.faq-3 .gruppe-111-lliQGl {
-  background-color: transparent;
-  height: 10px;
-  position: absolute;
-  right: 13px;
-  top: calc(40.93% - 4px);
-  width: 236px;
-}
-
-.faq-3 .gruppe-109-3BFRu3 {
-  background-color: transparent;
-  height: 10px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 39.04%;
-}
-
-.faq-3 .samstag-CxSasT {
-  background-color: transparent;
-  height: 12px;
-  letter-spacing: 0.00px;
-  line-height: 8px;
-  position: absolute;
-  right: 54px;
-  text-align: left;
-  top: 10.00%;
-  white-space: nowrap;
-  width: 38px;
-}
-
-.faq-3 .x900-uhr-CxSasT {
-  background-color: transparent;
-  height: calc(100.00% + 2px);
-  letter-spacing: 0.00px;
-  line-height: 8px;
-  position: absolute;
-  right: -2px;
-  text-align: left;
-  top: 1px;
-  white-space: nowrap;
-  width: 56px;
-}
-
-.faq-3 .gruppe-120-3BFRu3 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 130px;
-}
-
-.faq-3 .gruppe-110-nyn6ux {
-  background-color: transparent;
-  height: 10px;
-  left: 9.37%;
-  position: absolute;
-  top: 0px;
-  width: 90.63%;
-}
-
-.faq-3 .montag-freitag-Chono6 {
-  background-color: transparent;
-  height: 12px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 8px;
-  position: absolute;
-  text-align: left;
-  top: 10.00%;
-  white-space: nowrap;
-  width: 55.93%;
-}
-
-.faq-3 .x800-uhr-Chono6 {
-  background-color: transparent;
-  height: 12px;
-  left: 54.24%;
-  letter-spacing: 0.00px;
-  line-height: 8px;
-  position: absolute;
-  text-align: left;
-  top: 10.00%;
-  white-space: nowrap;
-  width: 47.46%;
-}
-
-.faq-3 .time-nyn6ux {
-  background-color: transparent;
-  height: calc(100.00% - 1px);
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 9px;
-}
-
-.faq-3 .gruppe-1-kVFOV9 {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.faq-3 .pfad-3-OisYgu {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
 }
 
 .faq-3 .gruppe-93-AKxmyD {
@@ -3873,6 +3830,202 @@
   right: 10px;
   top: 29px;
   width: 85px;
+}
+
+.faq-3 .gruppe-42-AKxmyD {
+  background-color: transparent;
+  height: 18px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-3 .gruppe-2-bxfyw5 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-3 .rechteck-1-lliQGl {
+  background-color: var(--new-car);
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-3 .gruppe-108-lliQGl {
+  background-color: transparent;
+  cursor: pointer;
+  height: 10px;
+  left: 26px;
+  position: absolute;
+  top: 3px;
+  width: 21.32%;
+}
+
+.faq-3 .iconfinder_ic_local_phone_48px_352510-szZjJJ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 10px;
+}
+
+.faq-3 .pfad-1-xtVi8h {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-3 .pfad-2-xtVi8h {
+  background-color: transparent;
+  height: calc(100.00% - 3px);
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 3px);
+}
+
+.faq-3 .x49-152-29545989-szZjJJ {
+  background-color: transparent;
+  height: calc(100.00% + 2px);
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.faq-3 .gruppe-111-lliQGl {
+  background-color: transparent;
+  height: 10px;
+  position: absolute;
+  right: 13px;
+  top: calc(40.93% - 4px);
+  width: 236px;
+}
+
+.faq-3 .gruppe-109-3BFRu3 {
+  background-color: transparent;
+  height: 10px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 39.04%;
+}
+
+.faq-3 .samstag-CxSasT {
+  background-color: transparent;
+  height: 12px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  right: 54px;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 38px;
+}
+
+.faq-3 .x900-uhr-CxSasT {
+  background-color: transparent;
+  height: calc(100.00% + 2px);
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.faq-3 .gruppe-120-3BFRu3 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 130px;
+}
+
+.faq-3 .gruppe-110-nyn6ux {
+  background-color: transparent;
+  height: 10px;
+  left: 9.37%;
+  position: absolute;
+  top: 0px;
+  width: 90.63%;
+}
+
+.faq-3 .montag-freitag-Chono6 {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 55.93%;
+}
+
+.faq-3 .x800-uhr-Chono6 {
+  background-color: transparent;
+  height: 12px;
+  left: 54.24%;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 47.46%;
+}
+
+.faq-3 .time-nyn6ux {
+  background-color: transparent;
+  height: calc(100.00% - 1px);
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 9px;
+}
+
+.faq-3 .gruppe-1-kVFOV9 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.faq-3 .pfad-3-OisYgu {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 @media screen and (max-width: 766px) {
   .screen.faq { 

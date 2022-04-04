@@ -99,194 +99,6 @@
   width: 183px;
 }
 
-.impressum .gruppe-157-EXDK4C {
-  background-color: transparent;
-  height: 54px;
-  left: -10px;
-  position: absolute;
-  top: 0px;
-  width: calc(100.00% + 50px);
-}
-
-.impressum .gruppe-42-xMIiH8 {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .gruppe-41-VvKfRY {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 100%;
-}
-
-.impressum .gruppe-5-QGmsjL {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .x367502-paxlkg-681-TWuxZP {
-  background-color: transparent;
-  border-radius: 10px;
-  height: calc(100.00% + 18px);
-  left: -9px;
-  object-fit: cover;
-  position: absolute;
-  top: -6px;
-  width: calc(100.00% + 18px);
-}
-
-.impressum .gruppe-2-VvKfRY {
-  background-color: transparent;
-  height: 100%;
-  left: 10px;
-  position: absolute;
-  top: 0px;
-  width: calc(100.00% - 50px);
-}
-
-.impressum .rechteck-1-4DdfWx {
-  background-color: var(--new-car);
-  box-shadow: 0px 3px 6px #00000029;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .x07153-342939-4DdfWx {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  left: 192px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 104px;
-}
-
-.impressum .montag-freitag-4DdfWx {
-  background-color: transparent;
-  bottom: calc(43.94% - 9px);
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: calc(24.68% - 32px);
-  text-align: left;
-  white-space: nowrap;
-  width: 129px;
-}
-
-.impressum .samstag-4DdfWx {
-  background-color: transparent;
-  bottom: calc(43.94% - 9px);
-  height: 21px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 219px;
-  text-align: left;
-  white-space: nowrap;
-  width: 74px;
-}
-
-.impressum .x800-uhr-4DdfWx {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: calc(17.96% - 20px);
-  text-align: left;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.impressum .x900-uhr-4DdfWx {
-  background-color: transparent;
-  bottom: calc(41.18% - 8px);
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  right: 102px;
-  text-align: left;
-  white-space: nowrap;
-  width: 110px;
-}
-
-.impressum .time-4DdfWx {
-  background-color: transparent;
-  height: 19px;
-  position: absolute;
-  right: calc(30.49% - 6px);
-  top: calc(49.59% - 10px);
-  width: 19px;
-}
-
-.impressum .gruppe-1-CyPsMe {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .pfad-3-4H1XPl {
-  background-color: transparent;
-  height: 100%;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .iconfinder_ic_local_phone_48px_352510-xMIiH8 {
-  background-color: transparent;
-  bottom: calc(43.44% - 10px);
-  height: 24px;
-  left: 172px;
-  position: absolute;
-  width: 24px;
-}
-
-.impressum .pfad-1-4mhi7x {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum .pfad-2-4mhi7x {
-  background-color: transparent;
-  height: calc(100.00% - 6px);
-  left: 3px;
-  object-fit: cover;
-  position: absolute;
-  top: 3px;
-  width: calc(100.00% - 6px);
-}
-
 .impressum .gruppe-93-EXDK4C {
   background-color: transparent;
   bottom: 0px;
@@ -369,6 +181,204 @@
   text-align: left;
   white-space: nowrap;
   width: 13px;
+}
+
+.impressum .gruppe-157-EXDK4C {
+  background-color: transparent;
+  height: 54px;
+  left: -10px;
+  position: fixed;
+  top: 0px;
+  width: calc(100.00% + 50px);
+}
+
+.impressum .gruppe-42-xMIiH8 {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .gruppe-41-VvKfRY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+
+.impressum .gruppe-5-QGmsjL {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .x367502-paxlkg-681-TWuxZP {
+  background-color: transparent;
+  border-radius: 10px;
+  height: calc(100.00% + 18px);
+  left: -9px;
+  object-fit: cover;
+  position: absolute;
+  top: -6px;
+  width: calc(100.00% + 18px);
+}
+
+.impressum .gruppe-2-VvKfRY {
+  background-color: transparent;
+  height: 100%;
+  left: 10px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 50px);
+}
+
+.impressum .rechteck-1-4DdfWx {
+  background-color: var(--new-car);
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .montag-freitag-4DdfWx {
+  background-color: transparent;
+  bottom: calc(43.94% - 9px);
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(24.68% - 32px);
+  text-align: left;
+  white-space: nowrap;
+  width: 129px;
+}
+
+.impressum .samstag-4DdfWx {
+  background-color: transparent;
+  bottom: calc(43.94% - 9px);
+  height: 21px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 219px;
+  text-align: left;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.impressum .x800-uhr-4DdfWx {
+  background-color: transparent;
+  bottom: calc(41.18% - 8px);
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(17.96% - 20px);
+  text-align: left;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.impressum .x900-uhr-4DdfWx {
+  background-color: transparent;
+  bottom: calc(41.18% - 8px);
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: 102px;
+  text-align: left;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.impressum .time-4DdfWx {
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  right: calc(30.49% - 6px);
+  top: calc(49.59% - 10px);
+  width: 19px;
+}
+
+.impressum .gruppe-1-CyPsMe {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .pfad-3-4H1XPl {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .gruppe-174-xMIiH8 {
+  background-color: transparent;
+  bottom: calc(43.44% - 10px);
+  height: 24px;
+  left: 172px;
+  position: absolute;
+  width: 164px;
+}
+
+.impressum .x49-152-29545989-ZpMso3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.impressum .iconfinder_ic_local_phone_48px_352510-ZpMso3 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.impressum .pfad-1-SnA6AR {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum .pfad-2-SnA6AR {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: calc(100.00% - 6px);
 }
 /* screen - impressum-1 */
 
@@ -476,6 +486,112 @@
   width: 183px;
 }
 
+.impressum-1 .gruppe-93-RLMIUZ {
+  background-color: transparent;
+  bottom: 0px;
+  height: 95px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.impressum-1 .rechteck-108-OAAkOO {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum-1 .gruppe-106-OAAkOO {
+  background-color: transparent;
+  bottom: calc(49.15% - 18px);
+  height: 36px;
+  left: calc(50.00% - 242px);
+  position: absolute;
+  width: 484px;
+}
+
+.impressum-1 .avanidis-VHNezJ {
+  background-color: transparent;
+  height: 38px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 147px;
+}
+
+.impressum-1 .impressum-VHNezJ {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(35.92% - 54px);
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.impressum-1 .impressum-VHNezJ:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-1 .faq-VHNezJ {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  left: calc(100.47% - 55px);
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.impressum-1 .faq-VHNezJ:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-1 .x-VHNezJ {
+  background-color: transparent;
+  height: 38px;
+  left: calc(36.79% - 5px);
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 13px;
+}
+
+.impressum-1 .x-a5gBJ1 {
+  background-color: transparent;
+  height: 38px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  right: calc(17.33% - 2px);
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 13px;
+}
+
 .impressum-1 .gruppe-42-RLMIUZ {
   background-color: transparent;
   height: 29px;
@@ -510,11 +626,12 @@
   left: 162px;
   position: absolute;
   top: 3px;
-  width: 11.17%;
+  width: 13.84%;
 }
 
 .impressum-1 .gruppe-116-fxj7vA {
   background-color: transparent;
+  cursor: pointer;
   height: 100%;
   left: 0px;
   position: relative;
@@ -551,7 +668,7 @@
   width: calc(100.00% - 6px);
 }
 
-.impressum-1 .x07153-342939-LpGXtH {
+.impressum-1 .x49-152-29545989-LpGXtH {
   background-color: transparent;
   height: calc(100.00% - 4px);
   left: 32px;
@@ -561,7 +678,7 @@
   text-align: left;
   top: 4px;
   white-space: nowrap;
-  width: 104px;
+  width: 136px;
 }
 
 .impressum-1 .gruppe-111-2Iprd2 {
@@ -670,112 +787,6 @@
   top: 1px;
   width: 100%;
 }
-
-.impressum-1 .gruppe-93-RLMIUZ {
-  background-color: transparent;
-  bottom: 0px;
-  height: 95px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.impressum-1 .rechteck-108-OAAkOO {
-  background-color: var(--black);
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum-1 .gruppe-106-OAAkOO {
-  background-color: transparent;
-  bottom: calc(49.15% - 18px);
-  height: 36px;
-  left: calc(50.00% - 242px);
-  position: absolute;
-  width: 484px;
-}
-
-.impressum-1 .avanidis-VHNezJ {
-  background-color: transparent;
-  height: 38px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 147px;
-}
-
-.impressum-1 .impressum-VHNezJ {
-  background-color: transparent;
-  cursor: pointer;
-  height: 38px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  pointer-events: auto;
-  position: absolute;
-  right: calc(35.92% - 54px);
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 150px;
-}
-
-.impressum-1 .impressum-VHNezJ:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-1 .faq-VHNezJ {
-  background-color: transparent;
-  cursor: pointer;
-  height: 38px;
-  left: calc(100.47% - 55px);
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  pointer-events: auto;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 55px;
-}
-
-.impressum-1 .faq-VHNezJ:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-1 .x-VHNezJ {
-  background-color: transparent;
-  height: 38px;
-  left: calc(36.79% - 5px);
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 13px;
-}
-
-.impressum-1 .x-a5gBJ1 {
-  background-color: transparent;
-  height: 38px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  right: calc(17.33% - 2px);
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 13px;
-}
 /* screen - impressum-2 */
 
 .impressum-2 {
@@ -882,6 +893,112 @@
   width: 137px;
 }
 
+.impressum-2 .gruppe-93-4sisQ8 {
+  background-color: transparent;
+  bottom: 0px;
+  height: 95px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.impressum-2 .rechteck-108-btzCcM {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum-2 .gruppe-106-btzCcM {
+  background-color: transparent;
+  bottom: calc(49.15% - 18px);
+  height: 36px;
+  left: calc(50.00% - 242px);
+  position: absolute;
+  width: 484px;
+}
+
+.impressum-2 .avanidis-yy6xfm {
+  background-color: transparent;
+  height: 38px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 147px;
+}
+
+.impressum-2 .impressum-yy6xfm {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(35.92% - 54px);
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.impressum-2 .impressum-yy6xfm:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-2 .faq-yy6xfm {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  left: calc(100.47% - 55px);
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.impressum-2 .faq-yy6xfm:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-2 .x-yy6xfm {
+  background-color: transparent;
+  height: 38px;
+  left: calc(36.79% - 5px);
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 13px;
+}
+
+.impressum-2 .x-y4FFtE {
+  background-color: transparent;
+  height: 38px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  right: calc(17.33% - 2px);
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 13px;
+}
+
 .impressum-2 .gruppe-42-4sisQ8 {
   background-color: transparent;
   height: 29px;
@@ -912,11 +1029,12 @@
 
 .impressum-2 .gruppe-108-qhwNDW {
   background-color: transparent;
+  cursor: pointer;
   height: 24px;
   left: 34px;
   position: absolute;
   top: 3px;
-  width: 17.06%;
+  width: 21.23%;
 }
 
 .impressum-2 .gruppe-117-DScVGE {
@@ -957,7 +1075,7 @@
   width: calc(100.00% - 6px);
 }
 
-.impressum-2 .x07153-342939-4SJ2s7 {
+.impressum-2 .x49-152-29545989-4SJ2s7 {
   background-color: transparent;
   height: calc(100.00% - 4px);
   left: 29px;
@@ -967,7 +1085,7 @@
   text-align: left;
   top: 4px;
   white-space: nowrap;
-  width: 104px;
+  width: 136px;
 }
 
 .impressum-2 .gruppe-111-qhwNDW {
@@ -1075,112 +1193,6 @@
   position: absolute;
   top: 1px;
   width: 100%;
-}
-
-.impressum-2 .gruppe-93-4sisQ8 {
-  background-color: transparent;
-  bottom: 0px;
-  height: 95px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.impressum-2 .rechteck-108-btzCcM {
-  background-color: var(--black);
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum-2 .gruppe-106-btzCcM {
-  background-color: transparent;
-  bottom: calc(49.15% - 18px);
-  height: 36px;
-  left: calc(50.00% - 242px);
-  position: absolute;
-  width: 484px;
-}
-
-.impressum-2 .avanidis-yy6xfm {
-  background-color: transparent;
-  height: 38px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 147px;
-}
-
-.impressum-2 .impressum-yy6xfm {
-  background-color: transparent;
-  cursor: pointer;
-  height: 38px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  pointer-events: auto;
-  position: absolute;
-  right: calc(35.92% - 54px);
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 150px;
-}
-
-.impressum-2 .impressum-yy6xfm:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-2 .faq-yy6xfm {
-  background-color: transparent;
-  cursor: pointer;
-  height: 38px;
-  left: calc(100.47% - 55px);
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  pointer-events: auto;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 55px;
-}
-
-.impressum-2 .faq-yy6xfm:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-2 .x-yy6xfm {
-  background-color: transparent;
-  height: 38px;
-  left: calc(36.79% - 5px);
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 13px;
-}
-
-.impressum-2 .x-y4FFtE {
-  background-color: transparent;
-  height: 38px;
-  letter-spacing: 0.00px;
-  line-height: 30px;
-  position: absolute;
-  right: calc(17.33% - 2px);
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 13px;
 }
 /* screen - impressum-3 */
 
@@ -1292,6 +1304,112 @@
   width: 85px;
 }
 
+.impressum-3 .gruppe-93-knProc {
+  background-color: transparent;
+  bottom: 0px;
+  height: 45px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.impressum-3 .rechteck-108-839auS {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.impressum-3 .gruppe-106-839auS {
+  background-color: transparent;
+  bottom: calc(50.00% - 9px);
+  height: 18px;
+  left: calc(50.00% - 118px);
+  position: absolute;
+  width: 236px;
+}
+
+.impressum-3 .avanidis-RqAYRv {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.impressum-3 .impressum-RqAYRv {
+  background-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(34.97% - 27px);
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 76px;
+}
+
+.impressum-3 .impressum-RqAYRv:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-3 .faq-RqAYRv {
+  background-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  left: calc(100.97% - 29px);
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.impressum-3 .faq-RqAYRv:hover {
+  filter: grayscale(100%);
+}
+
+.impressum-3 .x-RqAYRv {
+  background-color: transparent;
+  height: 20px;
+  left: calc(37.24% - 3px);
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.impressum-3 .x-aRkgNY {
+  background-color: transparent;
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  right: calc(17.31% - 1px);
+  text-align: left;
+  top: 8.33%;
+  white-space: nowrap;
+  width: 7px;
+}
+
 .impressum-3 .gruppe-42-knProc {
   background-color: transparent;
   height: 18px;
@@ -1322,11 +1440,12 @@
 
 .impressum-3 .gruppe-108-H8blsH {
   background-color: transparent;
+  cursor: pointer;
   height: 10px;
   left: 26px;
   position: absolute;
   top: 3px;
-  width: 17.05%;
+  width: 21.32%;
 }
 
 .impressum-3 .iconfinder_ic_local_phone_48px_352510-hPATh5 {
@@ -1358,7 +1477,7 @@
   width: calc(100.00% - 3px);
 }
 
-.impressum-3 .x07153-342939-hPATh5 {
+.impressum-3 .x49-152-29545989-hPATh5 {
   background-color: transparent;
   height: calc(100.00% + 2px);
   letter-spacing: 0.00px;
@@ -1368,7 +1487,7 @@
   text-align: left;
   top: 1px;
   white-space: nowrap;
-  width: 53px;
+  width: 69px;
 }
 
 .impressum-3 .gruppe-111-H8blsH {
@@ -1485,112 +1604,6 @@
   position: absolute;
   top: 1px;
   width: 100%;
-}
-
-.impressum-3 .gruppe-93-knProc {
-  background-color: transparent;
-  bottom: 0px;
-  height: 45px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.impressum-3 .rechteck-108-839auS {
-  background-color: var(--black);
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.impressum-3 .gruppe-106-839auS {
-  background-color: transparent;
-  bottom: calc(50.00% - 9px);
-  height: 18px;
-  left: calc(50.00% - 118px);
-  position: absolute;
-  width: 236px;
-}
-
-.impressum-3 .avanidis-RqAYRv {
-  background-color: transparent;
-  height: 20px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 15px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 75px;
-}
-
-.impressum-3 .impressum-RqAYRv {
-  background-color: transparent;
-  cursor: pointer;
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 15px;
-  pointer-events: auto;
-  position: absolute;
-  right: calc(34.97% - 27px);
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 76px;
-}
-
-.impressum-3 .impressum-RqAYRv:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-3 .faq-RqAYRv {
-  background-color: transparent;
-  cursor: pointer;
-  height: 20px;
-  left: calc(100.97% - 29px);
-  letter-spacing: 0.00px;
-  line-height: 15px;
-  pointer-events: auto;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-  width: 29px;
-}
-
-.impressum-3 .faq-RqAYRv:hover {
-  filter: grayscale(100%);
-}
-
-.impressum-3 .x-RqAYRv {
-  background-color: transparent;
-  height: 20px;
-  left: calc(37.24% - 3px);
-  letter-spacing: 0.00px;
-  line-height: 15px;
-  position: absolute;
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 7px;
-}
-
-.impressum-3 .x-aRkgNY {
-  background-color: transparent;
-  height: 20px;
-  letter-spacing: 0.00px;
-  line-height: 15px;
-  position: absolute;
-  right: calc(17.31% - 1px);
-  text-align: left;
-  top: 8.33%;
-  white-space: nowrap;
-  width: 7px;
 }
 @media screen and (max-width: 766px) {
   .screen.impressum { 
